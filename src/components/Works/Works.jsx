@@ -21,18 +21,18 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            Like to Work for All these
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+           Thing a Great Responsibility to do, is to make the world a better place.
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
+            As, these are the things i do for the clients.
             text
             <br />
-            y dummy text of printingLorem
+           Thinking better be next time
             <br />
-            ispum is simpley dummy text of printing
+           so, working hard
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -54,7 +54,9 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+          <a href="https://www.upwork.com/freelancers/~01de1fe88e9bde372b?viewMode=1"  target="_blank">
+            <img src={Upwork} alt=''/>
+            </a>
           </div>
           <div className="w-secCircle">
             <img src={Fiverr} alt="" />
@@ -65,8 +67,11 @@ const Works = () => {
           <div className="w-secCircle">
             <img src={Shopify} alt="" />
           </div>
+         
           <div className="w-secCircle">
+          <a href="https://www.facebook.com/manish.gautam.3994"  target="_blank">
             <img src={Facebook} alt="" />
+            </a>
           </div>
         </motion.div>
         {/* background Circles */}

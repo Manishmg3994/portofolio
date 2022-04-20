@@ -1,6 +1,7 @@
 {
   "name": "portofolio",
   "version": "0.1.0",
+  "homepage": "http://mg3994.theworkpc.com/profile/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",

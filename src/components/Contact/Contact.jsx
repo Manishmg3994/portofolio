@@ -20,6 +20,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+         
           setDone(true);
           form.reset();
         },
@@ -45,17 +46,20 @@ const Contact = () => {
       </div>
       {/* right side form */}
       <div className="c-right">
-        <form ref={form} onSubmit={sendEmail}>
+        <form id="feedback" ref={form} onSubmit={sendEmail} >
           <input type="text" name="user_name" className="user"  placeholder="Name"/>
           <input type="email" name="user_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
+          <a href = "#"  >
           <input type="submit" value="Send" className="button"/>
-          <span>{done && "Thanks for Contacting me"}</span>
+          </a>
+          <span>{done && "Thanks for Contacting me but this service is currently not working"}</span>
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}
           ></div>
         </form>
+        
       </div>
     </div>
   );

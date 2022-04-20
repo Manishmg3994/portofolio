@@ -28,9 +28,9 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span>Manish Gautam</span>
           <span>
-            Frontend Developer with high level of experience in web designing
+            Fullstack Developer with high level of experience in web/app designing
             and development, producting the Quality work
           </span>
         </div>
@@ -39,9 +39,15 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
+          <a href="https://github.com/Manishmg3994" target="_blank">
           <img src={Github} alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/manish-gautam-10285b178/"target="_blank">
           <img src={LinkedIn} alt="" />
+          </a>
+          <a href="https://www.instagram.com/manish_todi/"target="_blank">
           <img src={Instagram} alt="" />
+          </a>
         </div>
       </div>
       {/* right image side */}
