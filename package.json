@@ -1,7 +1,7 @@
 {
   "name": "portofolio",
   "version": "0.1.0",
-  "homepage": "http://mg3994.theworkpc.com/profile/",
+  "homepage": "https://manishmg3994.github.io/portofolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
@@ -10,6 +10,7 @@
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
     "framer-motion": "^6.2.8",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -19,6 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

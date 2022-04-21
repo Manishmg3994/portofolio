@@ -25,12 +25,12 @@ const Testimonial = () => {
     {
       img: profilePic3,
       review:
-        "Go head , Never Stop Awesome Devlopment.",
+        "Go ahead , Never Stop Awesome Devlopment.",
     },
     {
       img: profilePic4,
       review:
-        "Never Minds my text/word awesome Job Bro",
+        "Never Mind my text/word awesome Job Bro",
     },
   ];
 

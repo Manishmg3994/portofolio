@@ -25,10 +25,10 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-           Thing a Great Responsibility to do, is to make the world a better place.
+           Thinking a Great Responsibility to do, For the world a better place.
             <br />
             As, these are the things i do for the clients.
-            text
+           
             <br />
            Thinking better be next time
             <br />
